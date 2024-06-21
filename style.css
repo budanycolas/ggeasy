@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ff0000;
+    background-color: #f4f4f4;
 }
 
 .container {
@@ -73,60 +73,4 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-/* Estilos para celular */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-
-    header {
-        padding: 5px 0;
-    }
-
-    .btn {
-        background-color: #4CAF50; /* Verde */
-    }
-
-    footer {
-        background: #4CAF50; /* Verde */
-    }
-}
-
-/* Estilos para tablet */
-@media (min-width: 601px) and (max-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-
-    header {
-        padding: 8px 0;
-    }
-
-    .btn {
-        background-color: #FFC107; /* Amarelo */
-    }
-
-    footer {
-        background: #FFC107; /* Amarelo */
-    }
-}
-
-/* Estilos para computador */
-@media (min-width: 1025px) {
-    body {
-        font-size: 18px;
-    }
-
-    header {
-        padding: 10px 0;
-    }
-
-    .btn {
-        background-color: #2196F3; /* Azul */
-    }
-
-    footer {
-        background: #2196F3; /* Azul */
-    }
 }
